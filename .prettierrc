@@ -1,0 +1,25 @@
+{
+    "arrowParens": "avoid",
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120,
+    "tabWidth": 4,
+    "jsxBracketSameLine": true,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "overrides": [
+        {
+            "files": "*rc",
+            "options": {
+                "semi": false,
+                "tabWidth": 2,
+                "singleQuote": false
+            }
+        }
+    ]
+}
